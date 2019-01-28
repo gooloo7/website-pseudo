@@ -1,9 +1,4 @@
-header {
-  height: 175px;
-  background-color: #8B8B8B;
-}
-
-h1 {
-  font-family: "Josefin Sans", sans-serif;
-  color: #E9E9E9;
+* {
+  margin: 0;
+  padding: 0;
 }
