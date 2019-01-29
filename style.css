@@ -3,16 +3,36 @@
   padding: 0;
 }
 
+body, html{
+  height: 100%;
+
+  position: relative;
+  color: white;
+
+  background: url("pictures/background/milky-way.jpg") no-repeat center center fixed;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 header {
   background-color: #8B8B8B;
   height: 175px;
   border: 1px solid black;
+
+  overflow: hidden;
 }
 
 .navigation {
   position: relative;
   float: right;
-  margin-top: -15px;
+  margin-top: -0.75%;
 
 
 
@@ -87,9 +107,40 @@ header {
   background-color: rgba(100, 100, 100, 0.5);
 }
 
-.container img {
-  height: 100%;
-  width: 100%;
 
-  border: 1px solid yellow;
+
+.text-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-container h1{
+
+
+  font-family: "Josefin Sans Bold";
+  font-size: 8.5vw;
+  text-shadow: 3px 4px rgba(50, 50, 50, 0.5);
+  color: #E9E9E9;
+
+}
+
+.para-container {
+  font-family: "Josefin Sans Light";
+  font-size: 1.5vw;
+
+  text-shadow: 1px 2px rgba(50, 50, 50, 0.5);
+  color: #E9E9E9;
+
+}
+
+#photo {
+  float: left;
+  margin-left: 75px;
+}
+
+#film {
+  float: right;
+  margin-right: 75px;
 }
