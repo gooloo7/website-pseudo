@@ -97,23 +97,12 @@ header {
 
   margin-right: 25px;
   margin-left: 20px;
+
+  transition: all .2s ease-in-out;
 }
 
 .social-media img:hover{
-  background-color: rgba(100, 100, 100, 0.5);
-  background-clip: content-box;
-}
-
-#fb {
-  border-radius: 5px;
-}
-
-#insta {
-  border-radius: 7px;
-}
-
-#twit {
-  border-radius: 25px;
+  transform: scale(1.1);
 }
 
 .text-container {
@@ -128,6 +117,7 @@ header {
 
   font-family: "Josefin Sans", sans-serif;
   font-size: 8.5vw;
+  font-weight: bolder;
   text-shadow: 3px 4px rgba(50, 50, 50, 0.5);
   color: #E9E9E9;
 
